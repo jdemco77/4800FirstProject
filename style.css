@@ -1,0 +1,116 @@
+body{
+    height:100vh;
+    padding:0;
+    margin:0;
+    width:100vw; 
+}
+header{
+    background-color:rgb(4, 63, 4);
+    height:100px;
+    border-bottom:1px solid black;
+    margin:0;
+    padding:0;
+    float:left;
+    width:100vw;
+}
+.logo{
+    margin:0px;
+}
+header nav{
+    float:left;
+    width:100vw;
+    height:fit-content;
+}
+nav ul{
+    padding:0px;
+    float:left;
+    width:100vw;
+    height:fit-content;
+    margin:0px
+}
+nav ul li{
+    margin:40px 0px;
+    height:fit-content;
+    width:fit-content;
+    padding:0px 40px;
+    float:left;
+    list-style-type: none;
+}
+nav ul li a{
+    color:white;
+    font-size: larger;
+    width:fit-content;
+}
+#homeheading{
+    padding-top:100px;
+    text-align: center;
+    border-bottom:2px solid black
+}
+#why h2, #gear h2, #requirements h2, #recipies h2{ 
+    margin-top:0px;
+    text-align:center;
+    text-decoration: underline;
+    background-color:rgb(4, 63, 4);
+    height:50px;
+    padding-top:25px;
+    color:white;
+}
+.bullets{
+    background-color:rgb(4, 63, 4);
+    height:100px;
+    width:450px;
+}
+.section{
+    border:3px solid orange;
+    display:flex;
+    align-items: center;
+    width:fit-content;
+    padding-right:40px
+}
+.section ul{
+    height:fit-content;
+    line-height:30px;
+    margin-left: 20px;
+    padding-right:30px;
+    border:1px solid black;
+}
+.section ul li{
+    font-size: larger;
+}
+.a{
+    color:white;
+}
+table{
+    margin-top:75px;
+    border:2px solid black;
+    background-color:rgb(4, 63, 4);
+    height:400px
+}
+td{
+    border:1px solid orange;
+    color:white;
+    text-align: center;
+}
+th{
+    color:white;
+    text-decoration: underline;
+    border:1px solid white
+}
+.requirementstext, .recipiestext, .ingredients{
+    background-color:orange;
+    width:70vw;
+    margin-top:30px;
+    font-size:20px;
+    margin-left:15vw;
+    line-height: 30px;
+    border:2px solid black;
+    padding:5px;
+}
+.animals{
+    height:250px;
+    width:300px;
+}
+#pheasant, #venison, #bear{
+    text-align:center;
+    padding:0 px;
+}
